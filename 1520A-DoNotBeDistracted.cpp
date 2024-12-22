@@ -34,6 +34,7 @@ int main(){
     int count;
     cin>> count;
     for(int i=0;i<count;i++){
+        
         //Input Number of Word
         int numWords;
         cin >> numWords;
