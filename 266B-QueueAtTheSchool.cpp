@@ -13,7 +13,9 @@ int main(){
             //Check girl if in front is a boy
             if(s[k]=='G'&& s[k-1]=='B'){
                 swap(s[k-1],s[k]);
+                k--;
             }    
+            
         }
     }
 
